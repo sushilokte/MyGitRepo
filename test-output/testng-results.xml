@@ -1,21 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-27T16:22:29 IST" name="Suite" finished-at="2023-11-27T16:22:36 IST" duration-ms="6777">
+  <suite started-at="2023-12-13T19:34:19 IST" name="Default suite" finished-at="2023-12-13T19:34:33 IST" duration-ms="13829">
     <groups>
     </groups>
-    <test started-at="2023-11-27T16:22:29 IST" name="Test" finished-at="2023-11-27T16:22:36 IST" duration-ms="6777">
-      <class name="Test_Practise.TestExtentReport">
-        <test-method is-config="true" signature="config()[pri:0, instance:Test_Practise.TestExtentReport@25ce9dc4]" started-at="2023-11-27T16:22:29 IST" name="config" finished-at="2023-11-27T16:22:29 IST" duration-ms="255" status="PASS">
+    <test started-at="2023-12-13T19:34:19 IST" name="Default test" finished-at="2023-12-13T19:34:33 IST" duration-ms="13829">
+      <class name="Test_Practise.TestDataDriven">
+        <test-method signature="mainTest(java.util.HashMap)[pri:0, instance:Test_Practise.TestDataDriven@55a147cc]" started-at="2023-12-13T19:34:19 IST" name="mainTest" data-provider="getData" finished-at="2023-12-13T19:34:28 IST" duration-ms="8039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{userName=standard_user, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- config -->
-        <test-method signature="initialDemo()[pri:0, instance:Test_Practise.TestExtentReport@25ce9dc4]" started-at="2023-11-27T16:22:29 IST" name="initialDemo" finished-at="2023-11-27T16:22:36 IST" duration-ms="6486" status="PASS">
+        </test-method> <!-- mainTest -->
+        <test-method signature="mainTest(java.util.HashMap)[pri:0, instance:Test_Practise.TestDataDriven@55a147cc]" started-at="2023-12-13T19:34:28 IST" name="mainTest" data-provider="getData" finished-at="2023-12-13T19:34:33 IST" duration-ms="5491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{userName=locked_out_user, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialDemo -->
-      </class> <!-- Test_Practise.TestExtentReport -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- mainTest -->
+      </class> <!-- Test_Practise.TestDataDriven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
