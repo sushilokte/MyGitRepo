@@ -39,6 +39,9 @@ public class TestDataDriven {
 		driver.findElement(By.cssSelector("#login-button")).click();
 		
 		System.out.println("changes done by x person");
+		System.out.println("changes done by x person");
+		System.out.println("changes done by x person");
+		System.out.println("changes done by x person");
 		 
 	
 		
